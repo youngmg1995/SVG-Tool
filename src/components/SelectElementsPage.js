@@ -21,17 +21,18 @@ function SelectElementsPage(props) {
       flexDirection="column"
       justifyContent="center"
       alignItems="center"
-      height="100%"
+      minHeight="100%"
     >
       <Box>
         <Box
-          sx={{ m: 2 , minHeight: 256}}
-          display="flex"
-          justifyContent="center"
-          alignItems="center"
-        >
-          <img src={image} alt="selected_image"/>
-        </Box>
+          component="img"
+          margin={2}
+          minWidth={256}
+          maxWidth="100%"
+          height="auto"
+          src={image}
+          alt="selected_image"
+        />
         <Stack>
           <Item>Group 1</Item>
           <Item>Group 2</Item>

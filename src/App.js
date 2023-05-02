@@ -31,7 +31,7 @@ function App() {
     >
       <AppBar/>
       <Offset />
-      <Box flexGrow={1}>
+      <Box flexGrow={1} overflow='auto'>
         <Container sx={{height: '100%'}}>
           {content}
         </Container>
