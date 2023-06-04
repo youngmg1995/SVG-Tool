@@ -5,7 +5,6 @@ import Typography from '@mui/material/Typography';
 import AdbIcon from '@mui/icons-material/Adb';
 
 function AppBar(props) {
-
   return (
     <MuiAppBar>
       <Toolbar>
